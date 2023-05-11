@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Epic Fight</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="launcher">
+            <button id="launch">Launch the game</button>
+        </div>
+
+        <div class="game">
+            <div class="gameArea">
+            
+                <div class="hero">
+                    <h2>Hero</h2>
+                    <div class="avatar">
+                        <span id="heroName"></span>
+                        <img src="images/heroes/bean.png" id="hero" alt="">
+
+                    </div>
+            
+                    <div class="hero-weapon">
+                        <h3>Weapon</h3>
+                        <img src="images/weapon/banana.png" id="heroWeapon" alt="">
+                    </div>
+            
+                </div>
+            
+                <div class="vs">
+                    <span>VS</span>
+                </div>            
+            
+            
+                <div class="villain">
+                    <h2>Villain</h2>
+                    <div class="avatar">
+                        <span id="villainName"></span>
+                        <img src="images/villains/joker.png" id="villain" alt="">
+
+                    </div>
+            
+            
+                    <div class="villain-weapon">
+                        <h3>Weapon</h3>
+                        <img src="images/weapon/banana.png" id="villainWeapon" alt="">
+                    </div>
+
+                </div>
+            
+                <div class="buttonFight">
+
+                    <button id="fight">Fight!</button>
+            
+                    <div class="result">
+                        <span id="feedback"></span>
+                        <span id="winner"></span>
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+        </div>
+
+
+        
+
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
